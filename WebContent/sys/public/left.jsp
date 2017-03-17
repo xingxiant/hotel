@@ -95,7 +95,7 @@ body {
                     <a target="right" href="boardList.html">餐桌管理</a>
 				</li>
                 <li class="level2 level2Style">
-                	<a target="right" href="cuisineList.html">菜系管理</a>
+                	<a target="right" href="${pageContext.request.contextPath }/FoodTypeServlet?method=list">菜系管理</a>
 				</li>
                 <li class="level2 level2Style">
                 	<a target="right" href="foodList.html">菜品管理</a>
