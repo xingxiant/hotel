@@ -92,13 +92,13 @@ body {
 			</div>
             <ul class="MenuLevel2">
             	<li class="level2 level2Style">
-                    <a target="right" href="boardList.html">餐桌管理</a>
+                    <a target="right" href="${pageContext.request.contextPath }/DinnerTableServlet?method=list">餐桌管理</a>
 				</li>
                 <li class="level2 level2Style">
                 	<a target="right" href="${pageContext.request.contextPath }/FoodTypeServlet?method=list">菜系管理</a>
 				</li>
                 <li class="level2 level2Style">
-                	<a target="right" href="foodList.html">菜品管理</a>
+                	<a target="right" href="${pageContext.request.contextPath }/FoodServlet?method=list">菜品管理</a>
 				</li>
                 <li class="level2 level2Style">
                 	<a target="right" href="orderList.html">餐厅订单</a>

@@ -62,7 +62,7 @@
 										<a href="${pageContext.request.contextPath }/FoodTypeServlet?id=${foodType.id }&method=update" class="FunctionButton">更新</a> 
 										<a href="${pageContext.request.contextPath }/FoodTypeServlet?id=${foodType.id }&method=delete" class="FunctionButton">删除</a>
 									</td>
-					</tr>
+					            </tr>
 							</c:forEach>
 						</c:when>
 						<c:otherwise>
